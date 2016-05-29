@@ -11,5 +11,12 @@
 
     <artifactId>shiro-client</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.shujushow</groupId>
+            <artifactId>shiro-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
