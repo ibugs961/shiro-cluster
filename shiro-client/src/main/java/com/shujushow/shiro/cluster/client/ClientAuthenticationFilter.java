@@ -25,6 +25,7 @@ public class ClientAuthenticationFilter extends AuthenticationFilter {
     @Override
     protected boolean onAccessDenied(ServletRequest request, ServletResponse response) throws Exception {
         String backUrl = request.getParameter("backUrl");
+
         saveRequest(request, backUrl, getDefaultBackUrl(WebUtils.toHttp(request)));
         redirectToLogin(request, response);
         return false;
