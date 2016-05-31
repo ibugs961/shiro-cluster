@@ -12,6 +12,7 @@
         <module>shiro-server</module>
         <module>shiro-client</module>
         <module>shiro-app1</module>
+        <module>shiro-app2</module>
     </modules>
     <packaging>pom</packaging>
 
